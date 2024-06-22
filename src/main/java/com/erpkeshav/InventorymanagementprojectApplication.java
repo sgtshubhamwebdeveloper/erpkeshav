@@ -1,0 +1,13 @@
+package com.erpkeshav;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class InventorymanagementprojectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(InventorymanagementprojectApplication.class, args);
+	}
+
+}

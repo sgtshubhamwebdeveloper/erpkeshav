@@ -24,8 +24,5 @@ public class LoginController {
         return ResponseEntity.ok("Logged in successfully");
     }
 }
-class LoginRequest {
-    private String username;
-    private String password;
+
    
-}

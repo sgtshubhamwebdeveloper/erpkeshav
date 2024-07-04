@@ -11,7 +11,7 @@ public class LoginService  {
     @Autowired
     private UserRepository userRepository;
 
-    public authenticate(String username,String password) {
+    public boolean authenticate(String username,String password) {
         User user = userRepository.findByUsername(username).orElseThrow();
         if (!user.getPassword().equals(password)) {
             return false;
